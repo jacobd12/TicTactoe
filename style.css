@@ -1,0 +1,56 @@
+#container {
+    width: 320px;
+    height: 320px;
+    margin: auto;
+    margin-top: 100px;
+}
+#container h1 {
+    text-align: center;
+    color: crimson;
+    font-size: 55px;
+    font-style: oblique;
+    margin-bottom: 50px;
+
+}
+.q {
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 100px;
+}
+.q:hover{
+    background-color: crimson;
+}
+#q0, #q1, #q2, #q3, #q4, #q5 {
+    border-bottom: 10px solid black;
+}
+#q2, #q5, #q8, #q1, #q4, #q7 {
+    border-left: 10px solid black;
+}
+.winner {
+    background-color: green;
+}
+body{
+    background-color: lightseagreen;
+
+}
+.Scoreboard {
+    height: 100px;
+    width: 100px;
+    background-color: crimson;
+    float: left;
+    border: 2px solid black;
+}
+.Scoreboard:hover{
+    background-color: crimson;
+}
+#P1 {
+    height: 50px;
+    width: 50px;
+
+}
